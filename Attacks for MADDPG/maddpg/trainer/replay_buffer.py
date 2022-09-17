@@ -6,7 +6,7 @@ class ReplayBuffer(object):
         """Create Prioritized Replay buffer.
 
         Parameters
-        ----------
+        -------------
         size: int
             Max number of transitions to store in the buffer. When the buffer
             overflows the old memories are dropped.
